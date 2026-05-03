@@ -1,0 +1,30 @@
+{
+  "name": "bln-mcp-server",
+  "version": "1.0.0",
+  "description": "BeLikeNative MCP Server — Grammar checking, writing improvement, translation, and tone adjustment tools for AI clients",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": {
+    "bln-mcp-server": "src/index.mjs"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check-syntax": "node --check src/index.mjs && node --check src/tools.mjs && node --check src/rules.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "belikenative",
+    "grammar",
+    "translation",
+    "writing",
+    "ai"
+  ],
+  "license": "MIT",
+  "author": "BeLikeNative"
+}
