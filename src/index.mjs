@@ -23,7 +23,7 @@ import { TOOL_DEFINITIONS, TOOL_HANDLERS } from "./tools.mjs";
 // ---------------------------------------------------------------------------
 
 const SERVER_NAME = "bln-mcp-server";
-const SERVER_VERSION = "1.0.0";
+const SERVER_VERSION = "1.0.1";
 const MAX_TOOL_NAME_LENGTH = 64;
 
 // ---------------------------------------------------------------------------

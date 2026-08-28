@@ -1,7 +1,7 @@
 {
   "name": "bln-mcp-server",
-  "version": "1.0.0",
-  "description": "BeLikeNative MCP Server — Grammar checking, writing improvement, translation, and tone adjustment tools for AI clients",
+  "version": "1.0.1",
+  "description": "BeLikeNative MCP Server \u2014 Grammar checking, writing improvement, translation, and tone adjustment tools for AI clients",
   "type": "module",
   "main": "src/index.mjs",
   "bin": {
@@ -26,5 +26,10 @@
     "ai"
   ],
   "license": "MIT",
-  "author": "BeLikeNative"
+  "author": "BeLikeNative",
+  "homepage": "https://belikenative.com/fix-grammar-with-belikenative/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theluckystrike/bln-mcp-grammar-server.git"
+  }
 }
